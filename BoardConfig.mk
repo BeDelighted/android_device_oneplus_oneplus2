@@ -33,6 +33,10 @@ BOARD_VENDOR := oneplus
 # Use Snapdragon LLVM, if available
 TARGET_USE_SDCLANG := true
 
+SDCLANG_PATH := prebuilts/clang/linux-x86/host/sdclang-3.8/bin
+
+SDCLANG_LTO_DEFS := device/qcom/common/sdllvm-lto-defs.mk
+
 # Assertions
 TARGET_BOARD_INFO_FILE ?= $(PLATFORM_PATH)/board-info.txt
 
