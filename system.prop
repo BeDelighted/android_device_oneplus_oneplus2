@@ -99,6 +99,11 @@ persist.radio.sw_mbn_update=0
 persist.radio.start_ota_daemon=1
 persist.radio.rat_on=combine
 persist.data.qmi.adb_logmask=0
+#Supposed to work Wifi Calling and Video Calling so Testing.
+persist.dbg.volte_avail_ovr=1
+persist.dbg.vt_avail_ovr=1
+persist.data.iwlan.enable=true
+persist.dbg.wfc_avail_ovr=1 
 
 # Sensors
 ro.qc.sdk.sensors.gestures=true
